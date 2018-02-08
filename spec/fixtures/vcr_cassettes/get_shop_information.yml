@@ -1,0 +1,102 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bangingmeals.myshopify.com/admin/shop.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic NGVmNDgyNDIwZWJhN2RhNTFiNTA2NDQ1ZDU0MzYzMDA6YTEyYWY0ZmI5OGU0ZmQyODg2ZGViMGVkZDY3OGViYTU=
+      Accept:
+      - application/json
+      User-Agent:
+      - ShopifyAPI/4.9.0 ActiveResource/5.0.0 Ruby/2.5.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 08 Feb 2018 07:52:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Sorting-Hat-Podid:
+      - '10'
+      X-Sorting-Hat-Podid-Cached:
+      - '0'
+      X-Sorting-Hat-Shopid:
+      - '17117099'
+      X-Sorting-Hat-Section:
+      - pod
+      X-Sorting-Hat-Shopid-Cached:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '17117099'
+      X-Shardid:
+      - '10'
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1964568'
+      X-Stats-Apipermissionid:
+      - '3088711691'
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Strict-Transport-Security:
+      - max-age=7889238
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; script-src https://cdn.shopify.com
+        https://checkout.shopifycs.com https://js-agent.newrelic.com https://bam.nr-data.net
+        https://dme0ih8comzn4.cloudfront.net https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://maps.googleapis.com
+        https://stats.g.doubleclick.net https://www.google-analytics.com https://visitors.shopify.com
+        https://v.shopify.com https://widget.intercom.io https://js.intercomcdn.com
+        ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests; report-uri
+        /csp-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshops&source%5Bsection%5D=admin_api&source%5Buuid%5D=624150d0-8c07-47e9-9f86-bccca915d33d'
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshops&source%5Bsection%5D=admin_api&source%5Buuid%5D=624150d0-8c07-47e9-9f86-bccca915d33d
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      X-Dc:
+      - chi2,ash
+      X-Request-Id:
+      - 624150d0-8c07-47e9-9f86-bccca915d33d
+    body:
+      encoding: ASCII-8BIT
+      string: '{"shop":{"id":17117099,"name":"banginmeals","email":"banginmeal@gmail.com","domain":"bangingmeals.myshopify.com","created_at":"2017-01-12T13:42:10-08:00","province":"California","country":"US","address1":"1123
+        W. Herald St.","zip":"91790","city":"West Covina","source":null,"phone":"6266328707","updated_at":"2017-11-14T13:12:49-08:00","customer_email":null,"latitude":34.0642094,"longitude":-117.937918,"primary_locale":"en","address2":"","country_code":"US","country_name":"United
+        States","currency":"USD","timezone":"(GMT-08:00) America\/Los_Angeles","iana_timezone":"America\/Los_Angeles","shop_owner":"Rocky
+        Bang","money_format":"${{amount}}","money_with_currency_format":"${{amount}}
+        USD","weight_unit":"lb","province_code":"CA","taxes_included":false,"tax_shipping":null,"county_taxes":true,"plan_display_name":"Basic
+        Shopify","plan_name":"basic","has_discounts":true,"has_gift_cards":false,"myshopify_domain":"bangingmeals.myshopify.com","google_apps_domain":null,"google_apps_login_enabled":null,"money_in_emails_format":"${{amount}}","money_with_currency_in_emails_format":"${{amount}}
+        USD","eligible_for_payments":true,"requires_extra_payments_agreement":false,"password_enabled":false,"has_storefront":true,"eligible_for_card_reader_giveaway":null,"finances":true,"primary_location_id":14957963,"setup_required":false,"force_ssl":true}}'
+    http_version: 
+  recorded_at: Thu, 08 Feb 2018 07:52:49 GMT
+recorded_with: VCR 4.0.0

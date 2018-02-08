@@ -1,11 +1,15 @@
 require 'rails_helper'
 
 describe ShopifyRequest do
+
   let(:requester) { described_class.new }
+
   describe "#get_shop_information" do
-    it "gets shop information", vcr: :record_once do
-      response = request.get_shop_information.first
-      expect(response.dig("name")).to eq "bangingmealz"
+    it "gets shop information" do
+      VCR.use_cassette('get_shop_information') do
+        response = requester.get_shop_information
+        expect(response.name).to eq "banginmeals"
+      end
     end
   end
 end
