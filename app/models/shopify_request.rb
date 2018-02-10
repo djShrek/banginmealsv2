@@ -13,8 +13,19 @@ class ShopifyRequest
   end
 
   def get_products
+    ShopifyAPI::Product.find(:all)
+  end
+
+  def get_product(id)
+    ShopifyAPI::Product.find(id)
   end
 
   def get_orders
+    ShopifyAPI::Order.find(:all)
   end
+
+  def get_order(id)
+    ShopifyAPI::Order.find(id)
+  end
+
 end

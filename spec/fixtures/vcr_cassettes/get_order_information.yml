@@ -1,0 +1,142 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bangingmeals.myshopify.com/admin/orders/159555551243.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic NGVmNDgyNDIwZWJhN2RhNTFiNTA2NDQ1ZDU0MzYzMDA6YTEyYWY0ZmI5OGU0ZmQyODg2ZGViMGVkZDY3OGViYTU=
+      Accept:
+      - application/json
+      User-Agent:
+      - ShopifyAPI/4.9.0 ActiveResource/5.0.0 Ruby/2.5.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 10 Feb 2018 20:08:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Sorting-Hat-Podid:
+      - '10'
+      X-Sorting-Hat-Podid-Cached:
+      - '1'
+      X-Sorting-Hat-Shopid:
+      - '17117099'
+      X-Sorting-Hat-Section:
+      - pod
+      X-Sorting-Hat-Shopid-Cached:
+      - '1'
+      Vary:
+      - Accept-Encoding
+      Referrer-Policy:
+      - origin-when-cross-origin
+      X-Frame-Options:
+      - DENY
+      X-Shopid:
+      - '17117099'
+      X-Shardid:
+      - '10'
+      X-Stats-Userid:
+      - '0'
+      X-Stats-Apiclientid:
+      - '1964568'
+      X-Stats-Apipermissionid:
+      - '3088711691'
+      Http-X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      Strict-Transport-Security:
+      - max-age=7889238
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; script-src https://cdn.shopify.com
+        https://checkout.shopifycs.com https://js-agent.newrelic.com https://bam.nr-data.net
+        https://dme0ih8comzn4.cloudfront.net https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://maps.googleapis.com
+        https://stats.g.doubleclick.net https://www.google-analytics.com https://visitors.shopify.com
+        https://v.shopify.com https://widget.intercom.io https://js.intercomcdn.com
+        ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests; report-uri
+        /csp-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=83cffb65-fae4-45de-a839-b457ca7bcaef'
+      X-Content-Type-Options:
+      - nosniff
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=83cffb65-fae4-45de-a839-b457ca7bcaef
+      P3p:
+      - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
+      X-Dc:
+      - chi2,ash
+      X-Request-Id:
+      - 83cffb65-fae4-45de-a839-b457ca7bcaef
+    body:
+      encoding: ASCII-8BIT
+      string: '{"order":{"id":159555551243,"email":"12ichardvasak@gmail.com","closed_at":null,"created_at":"2018-02-10T09:35:32-08:00","updated_at":"2018-02-10T09:35:33-08:00","number":973,"note":null,"token":"f4c0c4538d0bd6ff0c7cb46cbbf54b09","gateway":"paypal","test":false,"total_price":"96.00","subtotal_price":"96.00","total_weight":0,"total_tax":"0.00","taxes_included":false,"currency":"USD","financial_status":"paid","confirmed":true,"total_discounts":"0.00","total_line_items_price":"96.00","cart_token":"98e89dc503e57e54a7e5e4cdc4f1f05e","buyer_accepts_marketing":false,"name":"#1973","referring_site":"https:\/\/www.google.com\/","landing_site":"\/","cancelled_at":null,"cancel_reason":null,"total_price_usd":"96.00","checkout_token":"d5fcc3a2c4e397978a3e380584959f3f","reference":null,"user_id":null,"location_id":null,"source_identifier":null,"source_url":null,"processed_at":"2018-02-10T09:35:32-08:00","device_id":null,"phone":null,"customer_locale":"en","app_id":580111,"browser_ip":"24.205.120.60","landing_site_ref":null,"order_number":1973,"discount_codes":[],"note_attributes":[],"payment_gateway_names":["paypal"],"processing_method":"express","checkout_id":395214815243,"source_name":"web","fulfillment_status":null,"tax_lines":[],"tags":"","contact_email":"12ichardvasak@gmail.com","order_status_url":"https:\/\/bangingmeals.myshopify.com\/17117099\/orders\/f4c0c4538d0bd6ff0c7cb46cbbf54b09\/authenticate?key=8cfd783315a3fe7f35dd6ced6a3e9c8c","line_items":[{"id":282060128267,"variant_id":3788043452427,"title":"Honey
+        Garlic Shrimp and Broccoli","quantity":1,"price":"9.00","sku":"","variant_title":"","vendor":"bangingmeals","fulfillment_service":"manual","product_id":482916040715,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Honey
+        Garlic Shrimp and Broccoli","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":1,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}},{"id":282060161035,"variant_id":408292622347,"title":"Basil
+        Pesto Shrimp, Broccoli","quantity":1,"price":"10.00","sku":"","variant_title":"Potato
+        Medley \/ Regular","vendor":"bangingmeals","fulfillment_service":"manual","product_id":63948357643,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Basil
+        Pesto Shrimp, Broccoli - Potato Medley \/ Regular","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":1,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}},{"id":282060193803,"variant_id":34792848971,"title":"Honey
+        Lime Tilapia, Asparagus","quantity":1,"price":"8.00","sku":"","variant_title":"No
+        Carbs\/Double Asparagus \/ Regular","vendor":"banginmeals","fulfillment_service":"manual","product_id":9531960331,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Honey
+        Lime Tilapia, Asparagus - No Carbs\/Double Asparagus \/ Regular","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":1,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}},{"id":282060226571,"variant_id":30093506059,"title":"Shrimp
+        Pineapple Fried Rice","quantity":1,"price":"9.00","sku":"","variant_title":"white
+        rice \/ regular","vendor":"banginmeals","fulfillment_service":"manual","product_id":8609119883,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Shrimp
+        Pineapple Fried Rice - white rice \/ regular","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":1,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}},{"id":282060259339,"variant_id":402621431819,"title":"Lemon
+        Pepper Chicken Alfredo","quantity":2,"price":"9.00","sku":"","variant_title":"Regular","vendor":"banginmeals","fulfillment_service":"manual","product_id":62940545035,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Lemon
+        Pepper Chicken Alfredo - Regular","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":2,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}},{"id":282060292107,"variant_id":31646070795,"title":"Beef
+        Bulgogi, Braised Cabbage","quantity":2,"price":"10.00","sku":"","variant_title":"brown
+        rice \/ regular","vendor":"banginmeals","fulfillment_service":"manual","product_id":8609112907,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Beef
+        Bulgogi, Braised Cabbage - brown rice \/ regular","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":2,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}},{"id":282060324875,"variant_id":34792730123,"title":"Garlic
+        Dijon Baked Salmon, Asparagus","quantity":1,"price":"11.00","sku":"","variant_title":"Brown
+        Rice","vendor":"bangingmeals","fulfillment_service":"manual","product_id":9531949067,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Garlic
+        Dijon Baked Salmon, Asparagus - Brown Rice","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":1,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}},{"id":282060357643,"variant_id":34792730187,"title":"Garlic
+        Dijon Baked Salmon, Asparagus","quantity":1,"price":"11.00","sku":"","variant_title":"No
+        Carbs\/Double Asparagus","vendor":"bangingmeals","fulfillment_service":"manual","product_id":9531949067,"requires_shipping":false,"taxable":false,"gift_card":false,"name":"Garlic
+        Dijon Baked Salmon, Asparagus - No Carbs\/Double Asparagus","variant_inventory_management":null,"properties":[],"product_exists":true,"fulfillable_quantity":1,"grams":0,"total_discount":"0.00","fulfillment_status":null,"tax_lines":[{"title":"CA
+        State Tax","price":"0.00","rate":0.0725},{"title":"Los Angeles County Tax","price":"0.00","rate":0.0225}],"origin_location":{"id":2761120139,"country_code":"US","province_code":"CA","name":"banginmeals","address1":"1123
+        W. Herald St.","address2":"","city":"West Covina","zip":"91790"}}],"shipping_lines":[],"billing_address":{"first_name":"richard","address1":"1115
+        knoll drive","phone":"(626) 542-5272","city":"monterey park","zip":"91754","province":"California","country":"United
+        States","last_name":"vasak","address2":"apt E","company":null,"latitude":34.0614825,"longitude":-118.1396495,"name":"richard
+        vasak","country_code":"US","province_code":"CA"},"fulfillments":[],"client_details":{"browser_ip":"24.205.120.60","accept_language":"en-US,en;q=0.9","user_agent":"Mozilla\/5.0
+        (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/63.0.3239.132
+        Safari\/537.36","session_hash":"77b37ebabe12ce87cb129fdf79a1cd12","browser_width":1351,"browser_height":733},"refunds":[],"customer":{"id":224014958603,"email":"12ichardvasak@gmail.com","accepts_marketing":false,"created_at":"2018-01-31T19:33:17-08:00","updated_at":"2018-02-10T09:35:33-08:00","first_name":"richard","last_name":"vasak","orders_count":2,"state":"enabled","total_spent":"192.00","last_order_id":159555551243,"note":null,"verified_email":true,"multipass_identifier":null,"tax_exempt":false,"phone":null,"tags":"","last_order_name":"#1973","default_address":{"id":250053754891,"customer_id":224014958603,"first_name":"richard","last_name":"vasak","company":null,"address1":"1115
+        knoll drive","address2":"apt E","city":"monterey park","province":"California","country":"United
+        States","zip":"91754","phone":"(626) 542-5272","name":"richard vasak","province_code":"CA","country_code":"US","country_name":"United
+        States","default":true}}}}'
+    http_version: 
+  recorded_at: Sat, 10 Feb 2018 20:08:12 GMT
+recorded_with: VCR 4.0.0
