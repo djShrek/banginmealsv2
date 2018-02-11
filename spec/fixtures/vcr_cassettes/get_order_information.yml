@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 10 Feb 2018 20:08:12 GMT
+      - Sun, 11 Feb 2018 07:48:59 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,13 +33,13 @@ http_interactions:
       X-Sorting-Hat-Podid:
       - '10'
       X-Sorting-Hat-Podid-Cached:
-      - '1'
+      - '0'
       X-Sorting-Hat-Shopid:
       - '17117099'
       X-Sorting-Hat-Section:
       - pod
       X-Sorting-Hat-Shopid-Cached:
-      - '1'
+      - '0'
       Vary:
       - Accept-Encoding
       Referrer-Policy:
@@ -57,9 +57,9 @@ http_interactions:
       X-Stats-Apipermissionid:
       - '3088711691'
       Http-X-Shopify-Shop-Api-Call-Limit:
-      - 1/40
+      - 2/40
       X-Shopify-Shop-Api-Call-Limit:
-      - 1/40
+      - 2/40
       Strict-Transport-Security:
       - max-age=7889238
       Content-Security-Policy:
@@ -72,7 +72,7 @@ http_interactions:
         https://stats.g.doubleclick.net https://www.google-analytics.com https://visitors.shopify.com
         https://v.shopify.com https://widget.intercom.io https://js.intercomcdn.com
         ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests; report-uri
-        /csp-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=83cffb65-fae4-45de-a839-b457ca7bcaef'
+        /csp-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=6f0010fc-5bd7-450f-b07d-2f301c4f8e36'
       X-Content-Type-Options:
       - nosniff
       - nosniff
@@ -81,13 +81,13 @@ http_interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Xss-Protection:
-      - 1; mode=block; report=/xss-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=83cffb65-fae4-45de-a839-b457ca7bcaef
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=show&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=6f0010fc-5bd7-450f-b07d-2f301c4f8e36
       P3p:
       - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
       X-Dc:
       - chi2,ash
       X-Request-Id:
-      - 83cffb65-fae4-45de-a839-b457ca7bcaef
+      - 6f0010fc-5bd7-450f-b07d-2f301c4f8e36
     body:
       encoding: ASCII-8BIT
       string: '{"order":{"id":159555551243,"email":"12ichardvasak@gmail.com","closed_at":null,"created_at":"2018-02-10T09:35:32-08:00","updated_at":"2018-02-10T09:35:33-08:00","number":973,"note":null,"token":"f4c0c4538d0bd6ff0c7cb46cbbf54b09","gateway":"paypal","test":false,"total_price":"96.00","subtotal_price":"96.00","total_weight":0,"total_tax":"0.00","taxes_included":false,"currency":"USD","financial_status":"paid","confirmed":true,"total_discounts":"0.00","total_line_items_price":"96.00","cart_token":"98e89dc503e57e54a7e5e4cdc4f1f05e","buyer_accepts_marketing":false,"name":"#1973","referring_site":"https:\/\/www.google.com\/","landing_site":"\/","cancelled_at":null,"cancel_reason":null,"total_price_usd":"96.00","checkout_token":"d5fcc3a2c4e397978a3e380584959f3f","reference":null,"user_id":null,"location_id":null,"source_identifier":null,"source_url":null,"processed_at":"2018-02-10T09:35:32-08:00","device_id":null,"phone":null,"customer_locale":"en","app_id":580111,"browser_ip":"24.205.120.60","landing_site_ref":null,"order_number":1973,"discount_codes":[],"note_attributes":[],"payment_gateway_names":["paypal"],"processing_method":"express","checkout_id":395214815243,"source_name":"web","fulfillment_status":null,"tax_lines":[],"tags":"","contact_email":"12ichardvasak@gmail.com","order_status_url":"https:\/\/bangingmeals.myshopify.com\/17117099\/orders\/f4c0c4538d0bd6ff0c7cb46cbbf54b09\/authenticate?key=8cfd783315a3fe7f35dd6ced6a3e9c8c","line_items":[{"id":282060128267,"variant_id":3788043452427,"title":"Honey
@@ -138,5 +138,5 @@ http_interactions:
         States","zip":"91754","phone":"(626) 542-5272","name":"richard vasak","province_code":"CA","country_code":"US","country_name":"United
         States","default":true}}}}'
     http_version: 
-  recorded_at: Sat, 10 Feb 2018 20:08:12 GMT
+  recorded_at: Sun, 11 Feb 2018 07:48:58 GMT
 recorded_with: VCR 4.0.0
