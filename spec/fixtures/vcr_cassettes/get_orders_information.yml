@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://bangingmeals.myshopify.com/admin/orders.json?limit=2&order=created_at%20DESC
+    uri: https://bangingmeals.myshopify.com/admin/orders.json?created_at_max=2018-02-12%2022:38:51%20-0800&created_at_min=2018-02-06%2006:38:51%20UTC&limit=2&order=created_at%20DESC
     body:
       encoding: US-ASCII
       string: ''
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 11 Feb 2018 07:48:58 GMT
+      - Tue, 13 Feb 2018 06:38:51 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -72,7 +72,7 @@ http_interactions:
         https://stats.g.doubleclick.net https://www.google-analytics.com https://visitors.shopify.com
         https://v.shopify.com https://widget.intercom.io https://js.intercomcdn.com
         ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests; report-uri
-        /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=7432ee62-0e31-4336-923d-883be643138c'
+        /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=fdefea6b-cb0e-4905-80d5-dff363394f21'
       X-Content-Type-Options:
       - nosniff
       - nosniff
@@ -81,13 +81,13 @@ http_interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Xss-Protection:
-      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=7432ee62-0e31-4336-923d-883be643138c
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=fdefea6b-cb0e-4905-80d5-dff363394f21
       P3p:
       - CP="NOI DSP COR NID ADMa OPTa OUR NOR"
       X-Dc:
       - chi2,ash
       X-Request-Id:
-      - 7432ee62-0e31-4336-923d-883be643138c
+      - fdefea6b-cb0e-4905-80d5-dff363394f21
     body:
       encoding: ASCII-8BIT
       string: '{"orders":[{"id":159555551243,"email":"12ichardvasak@gmail.com","closed_at":null,"created_at":"2018-02-10T09:35:32-08:00","updated_at":"2018-02-10T09:35:33-08:00","number":973,"note":null,"token":"f4c0c4538d0bd6ff0c7cb46cbbf54b09","gateway":"paypal","test":false,"total_price":"96.00","subtotal_price":"96.00","total_weight":0,"total_tax":"0.00","taxes_included":false,"currency":"USD","financial_status":"paid","confirmed":true,"total_discounts":"0.00","total_line_items_price":"96.00","cart_token":"98e89dc503e57e54a7e5e4cdc4f1f05e","buyer_accepts_marketing":false,"name":"#1973","referring_site":"https:\/\/www.google.com\/","landing_site":"\/","cancelled_at":null,"cancel_reason":null,"total_price_usd":"96.00","checkout_token":"d5fcc3a2c4e397978a3e380584959f3f","reference":null,"user_id":null,"location_id":null,"source_identifier":null,"source_url":null,"processed_at":"2018-02-10T09:35:32-08:00","device_id":null,"phone":null,"customer_locale":"en","app_id":580111,"browser_ip":"24.205.120.60","landing_site_ref":null,"order_number":1973,"discount_codes":[],"note_attributes":[],"payment_gateway_names":["paypal"],"processing_method":"express","checkout_id":395214815243,"source_name":"web","fulfillment_status":null,"tax_lines":[],"tags":"","contact_email":"12ichardvasak@gmail.com","order_status_url":"https:\/\/bangingmeals.myshopify.com\/17117099\/orders\/f4c0c4538d0bd6ff0c7cb46cbbf54b09\/authenticate?key=8cfd783315a3fe7f35dd6ced6a3e9c8c","line_items":[{"id":282060128267,"variant_id":3788043452427,"title":"Honey
@@ -211,5 +211,5 @@ http_interactions:
         States","zip":"90064","phone":"(310) 351-1550","name":"gilbert morales","province_code":"CA","country_code":"US","country_name":"United
         States","default":true}}}]}'
     http_version: 
-  recorded_at: Sun, 11 Feb 2018 07:48:57 GMT
+  recorded_at: Tue, 13 Feb 2018 06:38:51 GMT
 recorded_with: VCR 4.0.0

@@ -137,6 +137,6 @@ http_interactions:
         knoll drive","address2":"apt E","city":"monterey park","province":"California","country":"United
         States","zip":"91754","phone":"(626) 542-5272","name":"richard vasak","province_code":"CA","country_code":"US","country_name":"United
         States","default":true}}}}'
-    http_version: 
+    http_version:
   recorded_at: Sun, 11 Feb 2018 07:48:58 GMT
 recorded_with: VCR 4.0.0

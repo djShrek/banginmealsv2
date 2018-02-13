@@ -20,8 +20,14 @@ class ShopifyRequest
     ShopifyAPI::Product.find(id)
   end
 
-  def get_orders(limit: 250, order: "created_at DESC")
-    ShopifyAPI::Order.find(:all, params: { limit: limit, order: order })
+  def get_orders(limit: 250, order: "created_at DESC", created_at_min: 1.week.ago, created_at_max: Time.now)
+    params = {
+      limit: limit,
+      order: order,
+      created_at_min: created_at_min,
+      created_at_max: created_at_max
+    }
+    ShopifyAPI::Order.find(:all, params: params)
   end
 
   def get_order(id)
