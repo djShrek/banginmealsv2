@@ -34,7 +34,7 @@ describe ShopifyRequest do
   describe "#get_orders" do
     it "gets all order information" do
       VCR.use_cassette('get_orders_information') do
-        response = requester.get_orders(limit: 2)
+        response = requester.get_orders(2, "created_at DESC", DateTime.new(2018,1,2,3,4,5), DateTime.new(2018,2,2,3,4,5))
         expect(response.count).to eq 2
       end
     end

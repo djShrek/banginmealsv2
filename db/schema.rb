@@ -16,10 +16,10 @@ ActiveRecord::Schema.define(version: 20180213070844) do
   enable_extension "plpgsql"
 
   create_table "order_items", force: :cascade do |t|
-    t.integer "order_item_ref"
+    t.string "order_item_ref"
     t.string "title"
-    t.integer "product_ref"
-    t.integer "variant_ref"
+    t.string "product_ref"
+    t.string "variant_ref"
     t.string "variant_title"
     t.string "variant_name"
     t.integer "order_id"
@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20180213070844) do
   create_table "product_variants", force: :cascade do |t|
     t.integer "product_id"
     t.string "title"
-    t.integer "product_variant_ref"
+    t.string "product_variant_ref"
     t.integer "order_item_id"
     t.jsonb "data"
     t.datetime "created_at", null: false

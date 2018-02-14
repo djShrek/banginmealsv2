@@ -49,6 +49,7 @@ group :development, :test do
   gem 'vcr'
   gem 'pry'
   gem 'pry-rails'
+  gem 'timecop'
 end
 
 group :development do
